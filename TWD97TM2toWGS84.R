@@ -3,13 +3,6 @@
 # Website: http://www.idealyzt.com/
 # Last update: 2015/11/29 (@D4SG Hackthon)
 
-# References: 
-# 1. [Note] 二度分帶座標轉換爲經緯度
-# http://vinn.logdown.com/posts/2014/02/20/note-twd97-converts-to-wgs84
-# 2. 台灣及澎湖座標轉換與地圖定位
-# http://www.sunriver.com.tw/taiwanmap/grid_tm2_convert.php
-# 3. Taiwan datums/Test points
-# http://wiki.osgeo.org/index.php?title=Taiwan_datums/Test_points&uselang=zh-tw
 library(dplyr)
 
 TWD97TM2toWGS84 <- function (input_lat, input_lon){  
@@ -73,6 +66,12 @@ TWD97TM2toWGS84 <- function (input_lat, input_lon){
 }
 
 
-
+# References: 
+# 1. [Note] 二度分帶座標轉換爲經緯度
+# http://vinn.logdown.com/posts/2014/02/20/note-twd97-converts-to-wgs84
+# 2. 台灣及澎湖座標轉換與地圖定位
+# http://www.sunriver.com.tw/taiwanmap/grid_tm2_convert.php
+# 3. Taiwan datums/Test points
+# http://wiki.osgeo.org/index.php?title=Taiwan_datums/Test_points&uselang=zh-tw
 
 
