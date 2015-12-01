@@ -16,6 +16,6 @@ This R function converts TWD97.TM2 formats to WGS84. The main code credit to the
         example <- list(test = c('TWD97橫座標' = 320516.475, 'TWD97縱座標' = 2778024.419),
                      ans = c('WGS84緯度' = 25.10892003,'WGS84經度' = 121.69920444))
                          
-        TWD97toWGS84(example$test[1], example$test[2])
+        TWD97TM2toWGS84(example$test[1], example$test[2])
         example$ans
 
