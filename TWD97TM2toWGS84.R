@@ -1,4 +1,4 @@
-# TWD97 轉 經緯度
+# TWD97 二度分帶轉 WGS 經緯度
 # Contributer: Rafe. C. H. Liu (snexuz@gmail.com)
 # Website: http://www.idealyzt.com/
 # Last update: 2015/11/29 (@D4SG Hackthon)
@@ -12,7 +12,7 @@
 # http://wiki.osgeo.org/index.php?title=Taiwan_datums/Test_points&uselang=zh-tw
 library(dplyr)
 
-TWD97toWGS84 <- function (input_lat, input_lon){  
+TWD97TM2toWGS84 <- function (input_lat, input_lon){  
   # input_lat: TWD97橫座標, 南北緯度, latitude N
   # input_lon: TWD97縱座標, 東西經度, longitude E
   
